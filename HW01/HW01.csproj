@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83D25E60-8B8C-4456-999F-B7996AC3411B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HW01</RootNamespace>
+    <AssemblyName>HW01</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Game_FlappyBird.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Game_FlappyBird.Designer.cs">
+      <DependentUpon>Form_Game_FlappyBird.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW03_POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW03_POS.Designer.cs">
+      <DependentUpon>Form_HW03_POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW02_LoanReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW02_LoanReport.Designer.cs">
+      <DependentUpon>Form_HW02_LoanReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW01.Designer.cs">
+      <DependentUpon>Form_HW01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW02_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW02_Loan.Designer.cs">
+      <DependentUpon>Form_HW02_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW04_StudentStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW04_StudentStruct.Designer.cs">
+      <DependentUpon>Form_HW04_StudentStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW05_StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW05_StudentGrade.Designer.cs">
+      <DependentUpon>Form_HW05_StudentGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW06_StudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW06_StudentList.Designer.cs">
+      <DependentUpon>Form_HW06_StudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW08_Clac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW08_Clac.Designer.cs">
+      <DependentUpon>Form_HW08_Clac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW10_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW10_XOGame.Designer.cs">
+      <DependentUpon>Form_HW10_XOGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW11_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW11_ScreenSaver.Designer.cs">
+      <DependentUpon>Form_HW11_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW12_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW12_Notepad.Designer.cs">
+      <DependentUpon>Form_HW12_Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW13_DrawPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW13_DrawPaint.Designer.cs">
+      <DependentUpon>Form_HW13_DrawPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW14_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW14_PictureViewer.Designer.cs">
+      <DependentUpon>Form_HW14_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW14_PopViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW14_PopViewer.Designer.cs">
+      <DependentUpon>Form_HW14_PopViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW15_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW15_Guess.Designer.cs">
+      <DependentUpon>Form_HW15_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW15_Guess_userWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW15_Guess_userWindow.Designer.cs">
+      <DependentUpon>Form_HW15_Guess_userWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HW17_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HW17_Window.Designer.cs">
+      <DependentUpon>Form_HW17_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Game_FlappyBird.resx">
+      <DependentUpon>Form_Game_FlappyBird.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW01.resx">
+      <DependentUpon>Form_HW01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW02_Loan.resx">
+      <DependentUpon>Form_HW02_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW02_LoanReport.resx">
+      <DependentUpon>Form_HW02_LoanReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW03_POS.resx">
+      <DependentUpon>Form_HW03_POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW04_StudentStruct.resx">
+      <DependentUpon>Form_HW04_StudentStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW05_StudentGrade.resx">
+      <DependentUpon>Form_HW05_StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW06_StudentList.resx">
+      <DependentUpon>Form_HW06_StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW08_Clac.resx">
+      <DependentUpon>Form_HW08_Clac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW10_XOGame.resx">
+      <DependentUpon>Form_HW10_XOGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW11_ScreenSaver.resx">
+      <DependentUpon>Form_HW11_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW12_Notepad.resx">
+      <DependentUpon>Form_HW12_Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW13_DrawPaint.resx">
+      <DependentUpon>Form_HW13_DrawPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW14_PictureViewer.resx">
+      <DependentUpon>Form_HW14_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW14_PopViewer.resx">
+      <DependentUpon>Form_HW14_PopViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW15_Guess.resx">
+      <DependentUpon>Form_HW15_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW15_Guess_userWindow.resx">
+      <DependentUpon>Form_HW15_Guess_userWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HW17_Window.resx">
+      <DependentUpon>Form_HW17_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\G14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\photo\IU.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\pipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\pipedown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\blue\bird.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\blue\Frame-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\blue\frame-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\blue\frame-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\blue\frame-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\birddown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\birdup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\groundtop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flappy\bird.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
